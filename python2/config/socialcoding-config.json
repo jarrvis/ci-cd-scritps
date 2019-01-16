@@ -1,0 +1,16 @@
+{
+	"opt": {
+		"required": [
+			"project_key",
+			"slug",
+			"source_branch",
+			"dest_branch",
+			"socialcoding_user",
+			"socialcoding_password"
+		]
+	},
+	"api": {
+		"create.pull.request.url": "http://example.com/rest/api/1.0/projects/project_key/repos/slug/pull-requests",
+		"merge.pull.request.url": "http://example.com/rest/api/1.0/projects/project_key/repos/slug/pull-requests/pr_id/merge?version=0"
+	}
+}

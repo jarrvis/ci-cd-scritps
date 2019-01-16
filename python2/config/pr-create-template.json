@@ -1,0 +1,31 @@
+{
+	"title": "pipeline-bd.utlility.scripts-python",
+	"description": "this PR was created by script: socialcodingClient.py",
+	"state": "OPEN",
+	"open": true,
+	"closed": false,
+	"fromRef": {
+		"id": "source_branch",
+		"repository": {
+			"slug": "slug",
+			"name": null,
+			"project": {
+				"key": "project_key"
+			}
+		}
+	},
+	"toRef": {
+		"id": "dest_branch",
+		"repository": {
+			"slug": "slug",
+			"name": null,
+			"project": {
+				"key": "project_key"
+			}
+		}
+	},
+	"locked": false,
+	"links": {
+		"self": []
+	}
+}
