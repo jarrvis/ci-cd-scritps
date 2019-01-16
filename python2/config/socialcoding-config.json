@@ -5,8 +5,8 @@
 			"slug",
 			"source_branch",
 			"dest_branch",
-			"socialcoding_user",
-			"socialcoding_password"
+			"bitbucket_user",
+			"bitbucket_password"
 		]
 	},
 	"api": {

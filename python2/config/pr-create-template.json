@@ -1,6 +1,6 @@
 {
-	"title": "pipeline-bd.utlility.scripts-python",
-	"description": "this PR was created by script: socialcodingClient.py",
+	"title": "ci-cd-scripts",
+	"description": "this PR was created by script: ci-cd-scripts",
 	"state": "OPEN",
 	"open": true,
 	"closed": false,

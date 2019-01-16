@@ -1,0 +1,13 @@
+{
+	"opt": {
+		"required": [
+			"repository",
+			"name",
+			"artifactory_user",
+			"artifactory_password"
+		]
+	},
+	"api": {
+		"last.modified.artifact.url": "http://example.com/artifactory/api/storage/repository/name?lastModified"
+	}
+}

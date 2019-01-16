@@ -1,4 +1,4 @@
-__author__ = 'KAI8WZ'
+__author__ = 'jarrvis'
 
 import logging
 import time
@@ -22,15 +22,14 @@ parser.add_option("-t", "--title",
                   dest="title")
 parser.add_option("-m", "--description",
                   dest="description")
-parser.add_option("-u", "--socialcoding_user",
-                  dest="socialcoding_user")
-parser.add_option("-p", "--socialcoding-password",
-                  dest="socialcoding_password")
+parser.add_option("-u", "--bitbucket_user",
+                  dest="bitbucket_user")
+parser.add_option("-p", "--bitbucket-password",
+                  dest="bitbucket_password")
 
 
 (options, args) = parser.parse_args()
 
-# FROM: pipeline-BD.Utility.Scripts-python
 def logger(func):
     def inner(*args, **kwargs):  #1
         log.info("[%s] Arguments were: %s, %s" % (func.__name__, args, kwargs))
